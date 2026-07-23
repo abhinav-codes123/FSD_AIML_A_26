@@ -17,6 +17,8 @@
 const sum=(a,b)=> a+b;
 
 console.log("sum=",sum(10,20));
+console.log("helllo");
+
 
 
 
