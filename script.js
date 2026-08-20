@@ -1,0 +1,12 @@
+const child = document.createElement("div");
+child.setAttribute("class","card");
+const image = document.createElement("img");
+image.setAttribute("src","https://i.etsystatic.com/19006930/r/il/0a1748/3645310932/il_fullxfull.3645310932_f52e.jpg");
+image.setAttribute("width","200px");
+image.setAttribute("height","200px");   
+const h2 = document.createElement("h2");
+h2.innerText = "Price : 500/-";
+child.appendChild(image);
+child.appendChild(h2);
+const parent = document.getElementById("root");
+parent.appendChild(child);
